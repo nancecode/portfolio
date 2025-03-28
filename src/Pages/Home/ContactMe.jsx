@@ -1,11 +1,11 @@
-export default function ContactMe() {
+const ContactMe = () => {
   return (
     <section id="Contact" className="contact--section">
       <div>
         <p className="sub--title">Get In Touch</p>
         <h2>Contact Me</h2>
         <p className="text-lg">
-          Drop me message, let's turn your ideas into reality.
+          Drop me a message, let's turn your ideas into reality.
         </p>
       </div>
       <form className="contact--form--container">
@@ -51,7 +51,7 @@ export default function ContactMe() {
             />
           </label>
         </div>
-        <label htmlFor="choode-topic" className="contact--label">
+        <label htmlFor="choose-topic" className="contact--label">
           <span className="text-md">Choose a topic</span>
           <select id="choose-topic" className="contact--input text-md">
             <option>Select One...</option>
@@ -69,9 +69,9 @@ export default function ContactMe() {
             placeholder="Type your message..."
           />
         </label>
-        <label htmlFor="checkboc" className="checkbox--label">
+        <label htmlFor="checkbox" className="checkbox--label">
           <input type="checkbox" required name="checkbox" id="checkbox" />
-          <span className="text-sm">I accept the terms</span>
+          <span className="text--small">I accept the terms</span>
         </label>
         <div>
           <button className="btn btn-primary contact--form--btn">Submit</button>
@@ -79,4 +79,6 @@ export default function ContactMe() {
       </form>
     </section>
   );
-}
+};
+
+export default ContactMe;

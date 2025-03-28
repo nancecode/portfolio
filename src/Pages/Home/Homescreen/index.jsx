@@ -1,12 +1,11 @@
-import AboutMe from "../AboutMe";
-import ContactMe from "../ContactMe";
-import Footer from "../Footer";
-import HeroSection from "../HeroSection";
-import MyPortfolio from "../MyPortfolio";
-import MySkills from "../MySkills";
+import HeroSection from '../HeroSection';
+import MySkills from '../MySkills';
+import AboutMe from '../AboutMe';
+import MyPortfolio from '../MyPortfolio';
+import ContactMe from '../ContactMe';
+import Footer from '../Footer';
 
-
-export default function Home() {
+const Home = () => {
   return (
     <>
       <HeroSection />
@@ -17,4 +16,6 @@ export default function Home() {
       <Footer />
     </>
   );
-}
+};
+
+export default Home;

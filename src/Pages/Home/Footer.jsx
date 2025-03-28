@@ -1,12 +1,12 @@
 import { Link } from "react-scroll";
 import React from "react";
 
-function Footer() {
+const Footer = () => {
   return (
     <footer className="footer--container">
       <div className="footer--link--container">
         <div>
-          <img src="./img/logo.png" alt="Logoipsum" />
+          <img src="./img/logo-black.png" alt="NM Logo" />
         </div>
         <div className="footer--items">
           <ul>
@@ -51,7 +51,7 @@ function Footer() {
             </li>
             <li>
               <Link
-                activeClass="navbar--active-content"
+                activeClass="footer-items"
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -62,7 +62,7 @@ function Footer() {
                 Contact
               </Link>
             </li>
-           </ul>
+          </ul>
         </div>
         <div className="footer--social--icon">
           <ul>
@@ -159,8 +159,7 @@ function Footer() {
       </div>
       <hr className="divider" />
       <div className="footer--content--container">
-        <p className="footer--content">Made with 💖 by Nancy</p>
-        <div className="footer--social--icon">
+          <div className="footer--social--icon">
           <ul>
             <li>
               <Link
@@ -206,6 +205,6 @@ function Footer() {
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;

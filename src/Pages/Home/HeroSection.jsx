@@ -1,4 +1,9 @@
-export default function HeroSection() {
+const HeroSection = () => {
+  const scrollToContact = () => {
+    const contactSection = document.getElementById("Contact");
+    contactSection.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
   return (
     <section id="heroSection" className="hero--section">
       <div className="hero--section--content--box">
@@ -11,13 +16,17 @@ export default function HeroSection() {
           </h1>
           <p className="hero--section-description">
             BRANDING • WEB DESIGN & DEVELOPMENT  
-            </p>
+          </p>
         </div>
-        <button className="btn btn-primary">GET IN TOUCH</button>
+        <button className="btn btn-primary" onClick={scrollToContact}>
+          GET IN TOUCH
+        </button>
       </div>
       <div className="hero--section--img">
         <img src="./img/hero_img.png" alt="Hero Section" />
       </div>
     </section>
   );
-}
+};
+
+export default HeroSection;

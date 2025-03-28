@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 
-function Navbar() {
+const Navbar = () => {
   const [navActive, setNavActive] = useState(false);
 
   const toggleNav = () => {
@@ -15,7 +15,7 @@ function Navbar() {
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth <= 500) {
-        closeMenu;
+        closeMenu();
       }
     };
 
@@ -28,14 +28,16 @@ function Navbar() {
 
   useEffect(() => {
     if (window.innerWidth <= 1200) {
-      closeMenu;
+      closeMenu();
     }
   }, []);
 
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div>
-        <img src="./img/logo.png" alt="NMLogo" />
+        <a href="/" aria-label="Go to homepage">
+          <img src="./img/logo.png" alt="NMLogo" />
+        </a>
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
@@ -89,7 +91,7 @@ function Navbar() {
               Portfolio
             </Link>
           </li>
-          </ul>
+        </ul>
       </div>
       <Link
         onClick={closeMenu}
@@ -101,10 +103,10 @@ function Navbar() {
         to="Contact"
         className="btn btn-outline-primary"
       >
-        Contact Me
+        Let's talk!
       </Link>
     </nav>
   );
-}
+};
 
 export default Navbar;

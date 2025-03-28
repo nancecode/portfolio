@@ -2,48 +2,48 @@
   "skills": [
     {
       "id": "1",
-      "src": "./img/product-chain-1.png",
+      "src": "./img/front-end.png",
       "title": "Front-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "Building the visual and interactive parts of a website using HTML, CSS, and JavaScript, frameworks and librairies."
     },
     {
       "id": "2",
-      "src": "./img/tag-1.png",
+      "src": "./img/back-end.png",
       "title": "Back-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "Handling server-side logic, databases, authentication, APIs, data processing, scalability, security, and server management."
     },
     {
       "id": "3",
-      "src": "./img/feather-pen-2.png",
+      "src": "./img/UI-UX.png",
       "title": "UI & UX Design",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "Creating user interfaces, ensuring a seamless experience and improving satisfaction through research and testing."
     },
     {
       "id": "4",
-      "src": "./img/feather-pen-1.png",
-      "title": "Webflow Development",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "src": "./img/branding.png",
+      "title": "Branding",
+      "description": "Creating a unique identity and consistent visual style,  message, and consistent presence for a company or product."
     }
   ],
   "portfolio": [
     {
       "id": "1",
       "src": "./img/placeholder-image.png",
-      "title": "Ahuse",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "title": "Nyan Cat - Game customised",
+      "description": "A survival game of dodging falling pineapple that are trying to haz you (pizza). Stay alive longer for a higher score.",
       "link": "View In Github"
     },
     {
       "id": "2",
       "src": "./img/placeholder-image-1.png",
-      "title": "App Dashboard",
+      "title": "Placeholder",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
       "link": "View In Github"
     },
     {
       "id": "3",
       "src": "./img/placeholder-image-2.png",
-      "title": "Easy Rentn",
+      "title": "Placeholders",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
       "link": "View In Github"
     }
