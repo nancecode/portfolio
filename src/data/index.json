@@ -4,25 +4,33 @@
       "id": "1",
       "src": "./img/front-end.png",
       "title": "Front-End",
-      "description": "Building the visual and interactive parts of a website using HTML, CSS, and JavaScript, frameworks and librairies."
+      "description": "Building the visual and interactive parts of a website using HTML, CSS, and JavaScript, frameworks and librairies.",
+      "subtitle":"Tech Stack: HTML,CSS, Javascript, React",
+      "icons": ["FaHtml5", "FaCss3Alt", "FaJsSquare", "FaReact" ]
     },
     {
       "id": "2",
       "src": "./img/back-end.png",
       "title": "Back-End",
-      "description": "Handling server-side logic, databases, authentication, APIs, data processing, scalability, security, and server management."
+      "description": "Handling server-side logic, databases, authentication, APIs, data processing, scalability, security, and server management.",
+      "subtitle":"Tech Stack: Node.js, Express.js, MongoDB",
+      "icons": ["FaNodeJs", "SiMongodb", "SiExpress"]
     },
     {
       "id": "3",
       "src": "./img/UI-UX.png",
       "title": "UI & UX Design",
-      "description": "Creating user interfaces, ensuring a seamless experience and improving satisfaction through research and testing."
+      "description": "Creating user interfaces, ensuring a seamless experience and improving satisfaction through research, testing and design.",
+      "subtitle":"Software: Figma, Adobe XD",
+      "icons": ["FaFigma", "SiAdobexd"]
     },
     {
       "id": "4",
       "src": "./img/branding.png",
       "title": "Branding",
-      "description": "Creating a unique identity and consistent visual style,  message, and consistent presence for a company or product."
+      "description": "Creating a unique identity and consistent visual style,  message, and consistent presence for a company or product.",
+      "subtitle":"Software: Adobe Creative Suite",
+      "icons": ["SiAdobecreativecloud"]
     }
   ],
   "portfolio": [
@@ -31,21 +39,25 @@
       "src": "./img/placeholder-image.png",
       "title": "Nyan Cat - Game customised",
       "description": "A survival game of dodging falling pineapple that are trying to haz you (pizza). Stay alive longer for a higher score.",
-      "link": "View In Github"
+      "link": "https://github.com/nancecode/project-js-nyan-cat",
+      "project": "View In Github"
     },
     {
       "id": "2",
       "src": "./img/placeholder-image-1.png",
-      "title": "Placeholder",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "title": "Responsive Website | Interior Architect",
+      "description": "A custom responsive web design project tailored for an interior architect, showcasing their portfolio and services in a seamless, user-friendly layout across all devices.",
+      "link": "https://www.behance.net/gallery/94890739/Web-Design-(Desktop-x-Mobile)-Interior-Architects",
+      "project": "View In Behance"
     },
     {
       "id": "3",
       "src": "./img/placeholder-image-2.png",
-      "title": "Placeholders",
+      "title": "Placeholder",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "link": "https://github.com/nancecode?tab=repositories",
+      "project": "View In Github"
+
     }
   ]
  }
