@@ -1,39 +1,64 @@
-# 🚀 Welcome to My Portfolio
+# Personal Portfolio Website
 
-## 👋 About Me
-Hi, I'm Nancy, a **full-stack web developer** with a background in **graphic design**. Based in **Montreal, Quebec**, I bring creativity and technical expertise to every project, from branding to web development. Passionate about **solving problems and creating beautiful, functional websites**, I love tackling new challenges and continuously learning new technologies.
+Welcome to my personal portfolio website! This project showcases my work, expertise, and services as a designer and developer. Explore my portfolio, learn about my skills, and get in touch with me!
 
-## 🛠 Tech Stack & Skills
-- **Frontend:** HTML, CSS, JavaScript, React, Next.js
-- **Backend:** Node.js, Express, MongoDB, PostgreSQL
-- **Design:** Adobe Photoshop, Illustrator, InDesign
-- **Other:** Git, Figma, Webflow, WordPress
+## 🚀 Live Demo
+[Visit My Portfolio] https://67e9abd0c3c77d6fa3023cf3--gentle-llama-46be9f.netlify.app/ 
 
-## 🌟 Portfolio Highlights
-Here are some of my favorite projects:
+## 📌 Features
+- **Hero Section**: Introduction with a smooth scroll to the contact section.
+- **About Me**: Insights into my background, expertise, and passion.
+- **My Portfolio**: A showcase of selected projects, including links to GitHub and Behance.
+- **My Skills**: A breakdown of my technical and design skills.
+- **Contact Section**: Easy access to reach out to me.
+- **Responsive Design**: Optimized for all devices.
 
-### 🎨 [Project 1 - Name](#)
-**Description:** A stunning portfolio website built with React and TailwindCSS.
-**Tech Used:** React, TailwindCSS, Framer Motion
+## 🛠️ Tech Stack
+- **Front-End**: React.js, HTML5, CSS3, JavaScript
+- **Back-End**: Node.js, Express.js, MongoDB
+- **Design Tools**: Figma, Adobe Creative Suite
 
-### 🛒 [Project 2 - Name](#)
-**Description:** A fully functional eCommerce platform.
-**Tech Used:** Next.js, Stripe API, PostgreSQL
+## 📂 Project Structure
+```
+📦 my-portfolio
+├── 📁 public          # Static assets (images, favicon, etc.)
+├── 📁 src             # Main source code
+│   ├── 📁 components  # Reusable React components
+│   ├── 📁 data        # JSON data for projects and skills
+│   ├── 📁 assets      # Images and icons
+│   ├── App.js        # Main application file
+│   ├── index.js      # React entry point
+├── 📄 README.md       # Project documentation
+├── 📄 package.json    # Project dependencies and scripts
+```
 
-### 🌍 [Project 3 - Name](#)
-**Description:** A multilingual blog built for content creators.
-**Tech Used:** WordPress, Custom Theme Development
+## 🔧 Installation & Setup
+To run this project locally, follow these steps:
 
-*(More projects available at [YourPortfolio.com](#))*
+### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/nancecode/your-repo-name.git
+cd your-repo-name
+```
 
-## 💼 Work With Me
-I'm available for **freelance projects, collaborations, and full-stack development work**. Whether you need a **brand identity, a website, or a web app**, I can take your vision from concept to reality.
+### 2️⃣ Install Dependencies
+```sh
+npm install
+```
 
-📩 **Email:** your.email@example.com  
-🌐 **Website:** [YourPortfolio.com](#)  
-🐦 **Twitter:** [@yourhandle](#)  
-💼 **LinkedIn:** [linkedin.com/in/yourprofile](#)
+### 3️⃣ Start the Development Server
+```sh
+npm start
+```
+The site will be available at `http://localhost:3000/`
+
+## 📬 Contact Me
+Let's connect! Feel free to reach out through:
+- **Email**: nancy.mwanes@gmail.com
+- **GitHub**: [github.com/nancecode](https://github.com/nancecode)
+- **Behance**: [behance.net/nancecode](https://www.behance.net/nancecode)
+- **LinkedIn**: [linkedin.com/in/nancecode](https://www.linkedin.com/in/nancecode)
 
 ---
+© 2025 Nancy | Designed & Developed by Me 🎨💻
 
-Let's build something amazing together! 🚀
