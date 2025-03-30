@@ -9,7 +9,7 @@ const ContactMe = () => {
     emailjs
       .sendForm(
         "service_25bhqod",
-        "service_25bhqod",
+        "template_7q40sd8",
         form.current,
         "1i_z42LBGuIw3jygc"
       )
@@ -37,11 +37,29 @@ const ContactMe = () => {
       <form ref={form} onSubmit={sendEmail} className="contact-form-container">
         <div className="container">
           <label className="contact-label">
-            <span className="text-md">Name</span>
+            <span className="text-md">First Name</span>
             <input
               type="text"
               className="contact-input text-md"
-              name="user_name"
+              name="first_name"
+              required
+            />
+          </label>
+          <label className="contact-label">
+            <span className="text-md">Last Name</span>
+            <input
+              type="text"
+              className="contact-input text-md"
+              name="last_name"
+              required
+            />
+          </label>
+          <label className="contact-label">
+            <span className="text-md">Phone Number</span>
+            <input
+              type="number"
+              className="contact-input text-md"
+              name="phone_number"
               required
             />
           </label>
