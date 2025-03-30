@@ -8,10 +8,10 @@ const ContactMe = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_25bhqod", 
-        "service_25bhqod", 
+        "service_25bhqod",
+        "service_25bhqod",
         form.current,
-        "1i_z42LBGuIw3jygc" 
+        "1i_z42LBGuIw3jygc"
       )
       .then(
         (result) => {
@@ -55,6 +55,15 @@ const ContactMe = () => {
             />
           </label>
         </div>
+        <label htmlFor="choose-topic" className="contact-label">
+          <span className="text-md">Choose a service</span>
+          <select id="choose-topic" className="contact-input text-md">
+            <option>Select One...</option>
+            <option>Branding</option>
+            <option>Web Design</option>
+            <option>Web Development</option>
+          </select>
+        </label>
         <label className="contact-label">
           <span className="text-md">Message</span>
           <textarea
