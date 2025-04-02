@@ -10,12 +10,11 @@ const HeroSection = () => {
         <div className="hero-section-content">
           <p className="section-title">Hey, I'm Nancy</p>
           <h1 className="hero-section-title">
-            <span className="hero-section-title-color">Designer</span>{" "}
-            <br />
+            <span className="hero-section-title-color">Designer</span> <br />
             Developer
           </h1>
           <p className="hero-section-description">
-            BRANDING • WEB DESIGN & DEVELOPMENT  
+            BRANDING • WEB DESIGN & DEVELOPMENT
           </p>
         </div>
         <button className="btn btn-primary" onClick={scrollToContact}>

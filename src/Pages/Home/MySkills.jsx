@@ -1,6 +1,18 @@
 import data from "../../data/index.json";
-import { FaReact, FaCss3Alt, FaHtml5, FaJsSquare, FaNodeJs, FaFigma } from "react-icons/fa";
-import { SiMongodb, SiExpress, SiAdobexd, SiAdobecreativecloud } from "react-icons/si";
+import {
+  FaReact,
+  FaCss3Alt,
+  FaHtml5,
+  FaJsSquare,
+  FaNodeJs,
+  FaFigma,
+} from "react-icons/fa";
+import {
+  SiMongodb,
+  SiExpress,
+  SiAdobexd,
+  SiAdobecreativecloud,
+} from "react-icons/si";
 
 const MySkills = () => {
   return (
@@ -23,24 +35,24 @@ const MySkills = () => {
                   switch (iconName) {
                     case "FaHtml5":
                       return <FaHtml5 key={iconIndex} />;
-                       case "FaCss3Alt":
+                    case "FaCss3Alt":
                       return <FaCss3Alt key={iconIndex} />;
-                      case "FaJsSquare":
+                    case "FaJsSquare":
                       return <FaJsSquare key={iconIndex} />;
-                       case "FaReact":
+                    case "FaReact":
                       return <FaReact key={iconIndex} />;
-                      case "FaNodeJs":
-                        return <FaNodeJs key={iconIndex} />;
-                        case "SiExpress":
-                          return <SiExpress key={iconIndex} />;
-                        case "SiMongodb":
-                          return <SiMongodb key={iconIndex} />;
-                          case "FaFigma":
-                          return <FaFigma key={iconIndex} />;
-                          case "SiAdobexd":
-                            return <SiAdobexd key={iconIndex} />;
-                            case "SiAdobecreativecloud":
-                              return <SiAdobecreativecloud key={iconIndex} />;
+                    case "FaNodeJs":
+                      return <FaNodeJs key={iconIndex} />;
+                    case "SiExpress":
+                      return <SiExpress key={iconIndex} />;
+                    case "SiMongodb":
+                      return <SiMongodb key={iconIndex} />;
+                    case "FaFigma":
+                      return <FaFigma key={iconIndex} />;
+                    case "SiAdobexd":
+                      return <SiAdobexd key={iconIndex} />;
+                    case "SiAdobecreativecloud":
+                      return <SiAdobecreativecloud key={iconIndex} />;
 
                       return null;
                   }
