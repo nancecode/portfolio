@@ -44,7 +44,7 @@ const Footer = () => {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="aboutMe"
+                to="AboutMe"
                 className="text-footer"
               >
                 About Me
@@ -57,7 +57,7 @@ const Footer = () => {
                 smooth={true}
                 offset={-70}
                 duration={500}
-                to="contact"
+                to="Contact"
                 className="text-footer"
               >
                 Contact
@@ -94,33 +94,7 @@ const Footer = () => {
       <div className="footer-content-container">
         <div className="footer-social-icon">
           <ul>
-            <li>
-              <Link
-                activeClass="navbar-active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="privacyPolicy"
-                className="text-sm"
-              >
-                Privacy Policy
-              </Link>
-            </li>
-            <li>
-              <Link
-                activeClass="navbar-active-content"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                to="termsOfService"
-                className="text-sm"
-              >
-                Terms of Service
-              </Link>
-            </li>
-            <li>
+             <li>
               <Link
                 activeClass="navbar-active-content"
                 spy={true}

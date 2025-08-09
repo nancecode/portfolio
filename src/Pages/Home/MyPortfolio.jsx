@@ -3,7 +3,7 @@ import { MdOutlineArrowOutward } from "react-icons/md";
 
 const MyPortfolio = () => {
   return (
-    <section className="portfolio-section" id="MyPortfolio">
+    <section className="portfolio-section" id="myPortfolio">
       <div className="portfolio-container-box">
         <div className="portfolio-container">
           <h1 className="skills-section-heading">My Work</h1>
