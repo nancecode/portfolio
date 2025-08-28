@@ -37,7 +37,7 @@ To run this project locally, follow these steps:
 
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/nancecode/your-repo-name.git
+git clone https://github.com/nancecode/portfolio.git
 cd your-repo-name
 ```
 
