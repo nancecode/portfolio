@@ -3,7 +3,7 @@
 Welcome to my personal portfolio website! This project showcases my work, expertise, and services as a designer and developer. Explore my portfolio, learn about my skills, and get in touch with me!
 
 ## 🚀 Live Demo
-[Visit My Portfolio] https://67e9abd0c3c77d6fa3023cf3--gentle-llama-46be9f.netlify.app/ 
+[Visit My Portfolio] nancymwanes.com
 
 ## 📌 Features
 - **Hero Section**: Introduction with a smooth scroll to the contact section.
@@ -56,8 +56,8 @@ The site will be available at `http://localhost:3000/`
 Let's connect! Feel free to reach out through:
 - **Email**: nancy.mwanes@gmail.com
 - **GitHub**: [github.com/nancecode](https://github.com/nancecode)
-- **Behance**: [behance.net/nancecode](https://www.behance.net/nancecode)
-- **LinkedIn**: [linkedin.com/in/nancecode](https://www.linkedin.com/in/nancecode)
+- **Behance**: [behance.net/nancecode](https://www.behance.net/nancymouwannes)
+- **LinkedIn**: [linkedin.com/in/nancecode](https://www.linkedin.com/in/nancymouwannes)
 
 ---
 © 2025 Nancy | Designed & Developed by Me 🎨💻
